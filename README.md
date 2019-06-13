@@ -166,14 +166,15 @@ Add the following lines of code to the flaskapp.wsgi file
     application.secret_key = 'super_secret_key'
 
 ### Restart Apache
-sudo service apache2 restart
+	sudo service apache2 restart
 
 ### Add tables and data
- sudo python /var/www/FlaskApp/item-catalog/database_setup.py
+	sudo python /var/www/FlaskApp/item-catalog/database_setup.py
  
 ### run project app
-cd /var/www/FlaskApp/item-catalog/
-sudo python project.py 
+
+	cd /var/www/FlaskApp/item-catalog/
+	sudo python project.py 
  
 
 
